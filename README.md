@@ -1,4 +1,120 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# ***Museum Sandi Web Challenge***
+
+Deskripsi singkat:
+
+Proyek ini adalah aplikasi web untuk Museum Sandi yang menampilkan update/event terkini serta memiliki panel admin untuk mengelola konten. Dibangun menggunakan Laravel 12 dengan Filament 4 sebagai admin panel.
+
+---
+
+## **Preview Tampilan**
+
+### Halaman Beranda
+
+Menampilkan event terbaru dan informasi museum.
+
+-- Preview Beranda
+
+![Preview Beranda](./assets/lpmuseum.jpg)
+
+-- Preview category
+
+![Preview Beranda](./assets/category.jpg)
+
+
+### Halaman Admin (Filament)
+
+Dashboard admin untuk menambah/mengedit event.
+
+-- Preview Login Admin
+
+![Preview Admin](./assets/loginadmin.jpg)
+
+-- Preview Dashboard Admin
+
+![Preview Beranda](./assets/dashboardadmin.jpg)
+
+-- Preview Authors
+
+![Preview Beranda](./assets/author.jpg)
+
+-- Preview News Category
+
+![Preview Beranda](./assets/newcategory.jpg)
+
+-- Preview News
+
+![Preview Beranda](./assets/news.jpg)
+
+---
+
+## **Fitur**
+
+Lihat event dan update terbaru Museum Sandi
+
+Filter berdasarkan kategori/event
+
+Panel admin lengkap dengan CRUD event
+
+Autentikasi admin dengan Filament 4
+
+Responsif dan mobile-friendly
+
+---
+
+## **Instalasi**
+
+### Clone repositori:
+
+git clone https://github.com/username/museum-sandi-challenge.git
+
+cd museum-sandi-challenge
+
+
+### Install dependencies:
+
+composer install
+
+npm install
+
+npm run dev
+
+
+### Salin file .env dan generate key:
+
+cp .env.example .env
+
+php artisan key:generate
+
+
+### Konfigurasi database di .env lalu migrasi:
+
+php artisan migrate
+
+
+### Jalankan server:
+
+php artisan serve
+
+Akses web di browser: http://localhost:8000
+
+---
+
+## **Struktur Folder**
+
+/app
+
+/config
+
+/database
+
+/public
+
+/resources
+
+/routes
+
+
+<!-- <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
 <a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
@@ -58,4 +174,4 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT). -->
